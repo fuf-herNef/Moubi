@@ -1,0 +1,27 @@
+* {
+	margin: auto;
+	margin: 0px;
+	padding: 0px;
+
+	font-family: var(--main-font);
+	background-color: var(--main-color);
+	color: var(--text-color);
+}
+
+h1, h2, h3 {
+	padding: 2px;
+	color: var(--secundary-color);
+	margin: 2px;
+}
+
+body {
+	width: 100%;
+	min-width: 1200px;
+	justify-content: center;
+	background-color: var(--main-color);
+}
+
+nav, header, section, footer {
+	width: 100%;
+}
+

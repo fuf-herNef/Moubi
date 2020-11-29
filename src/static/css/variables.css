@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'main-font';
+ 	src: url('../font/Oswald/static/Oswald-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'secundary-font';
+ 	src: url('../font/Share_Tech/ShareTech-Regular.ttf') format('truetype');
+}
+
+:root {
+	--main-color: #ffffff;
+	--text-color: #1f2421;
+	--secundary-color: #49a078;
+	--dark-color: #dce1de;
+
+	--main-font: main-font;
+	--secundary-font: secundary-font;
+	--border-simple: 1px;
+	--border-bold: 3px;
+}
