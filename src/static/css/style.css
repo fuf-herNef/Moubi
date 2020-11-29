@@ -229,3 +229,80 @@ section {
 #news {
 
 }
+/* Sección de estilos de servicios */
+.seccion-servicio{
+	width: 100%;
+	height: 380px;
+	min-width: 1200px;
+}
+.sub_titservicios{
+	display: flex;
+	width: 100%;
+	height: 80.58px;
+	align-items: center;
+}
+.tit-servicio{
+	font-size: 42px;
+	color: #49A078;
+	margin-left: 600px;
+}
+.icons_tit{
+	width: 50px;
+	height: 50px;
+	margin-left: 25px;
+}
+.servicio{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	width: 290px;
+	height: 270px;
+	border: 2px solid #ccdbdc;
+	border-radius: 5px;
+	align-items: center;
+}
+.sub_servicios{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.icons{
+	width: 50px;
+	height: 50px;
+	margin-top: 15px;
+}
+.servicio1{
+	margin-left: 45px;
+	align-content: center;
+}
+.servicio3{
+	margin-right: 45px;
+}
+.tit-service{
+	font-size: 26px;
+	color: black;
+	text-align: center;
+}
+.ptit-service{
+	margin-bottom: 0px;
+}
+.descripcion{
+	font-size: 14px;
+	color: black;
+	text-align: center;
+}
+.descrip{
+	margin-top: 5.98px;
+}
+.link{
+	font-size: 14px;
+	color: #49A078;
+	text-decoration: none;
+}
+.link1{
+	margin-top: 16.8px;
+}
+.link2{
+	margin-top: 33.6px;
+}
