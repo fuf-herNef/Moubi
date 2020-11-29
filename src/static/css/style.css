@@ -21,13 +21,22 @@ section {
 }
 /*Aqui empiezan las reglas de las sección equipo*/
 .TituloEquipo{
-	font-family: Maven Pro VF Beta;
+	font-family: main-font;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 42px;
 	line-height: 49px;
 	text-align: center;
 	color: #49A078;
+}
+.IconoTituloEquipo{
+	position: relative;
+	bottom: 40px;
+	width: 40.63px;
+	left: 15px;
+	height: 43.37px;
+	margin-left: 690px;
+	color: #47db96;
 }
 .bordeCelda{
 	border: 2px solid #CCDBDC;
@@ -40,11 +49,11 @@ section {
 }
 .ImagenEquipo{
 	border-radius: 5px;
-	width: 81.25px;
-	height: 87.5px;
+	width: 91.25px;
+	height: 97.5px;
 }
 .NombreEquipo{
-	font-family: Maven Pro VF Beta;
+	font-family: main-font;
 	font-size: 26px;
 	font-style: normal;
 	line-height: 30,55px;
@@ -52,7 +61,7 @@ section {
 	color: #49A078;
 }
 .DescripcionEquipo{
-	font-family: Maven Pro VF Beta;
+	font-family: main-font;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 16px;
