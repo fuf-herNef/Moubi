@@ -318,3 +318,50 @@ svg > * {
 .link2{
 	margin-top: 33.6px;
 }
+footer .footer-container {
+	background-color: #49a078;
+	height: 160px;
+	font-size: 15px;
+	margin: 1px !important;
+}
+
+.footer-containerm, .footer-content {
+	/* border: 1px solid #CCC; */
+	/* background-color: #E0E0E0; */
+	overflow: hidden;
+}
+
+.footer-content {
+	padding-top: 10px;
+}
+
+.footer-right  { 
+	float: right; 
+	width: 45%;
+	--main-color:  #49a078;
+	
+	/* border: 2px solid #1f2421; */
+}
+.footer-left { 
+	float: left;  
+	width: 45%;
+	padding-left: 110px;
+	/* border: 2px solid #1f2421; */
+	--main-color:  #49a078;
+
+}
+
+.img-right {
+	float: left;  
+	width: 25px;
+	height: 25px;	
+	--sd-color:  #fff !important;
+}
+
+
+.img-left {
+	float: left;  
+	width: 25px;
+	height: 25px;	
+	fill: white;
+}
