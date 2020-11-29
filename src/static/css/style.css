@@ -184,11 +184,137 @@ svg > * {
 #services {
 
 }
-
-#team {
-
+/*Aqui empiezan las reglas de las sección equipo*/
+.TituloEquipo{
+	font-family: main-font;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	line-height: 49px;
+	text-align: center;
+	color: #49A078;
 }
+.IconoTituloEquipo{
+	position: relative;
+	bottom: 40px;
+	width: 40.63px;
+	left: 15px;
+	height: 43.37px;
+	margin-left: 690px;
+	color: #47db96;
+}
+.bordeCelda{
+	border: 2px solid #CCDBDC;
+	border-radius: 5px;
+	width:247.28px ;
+	height: 350px;
+}
+.bordeTabla{
+	border-spacing: 45px;
+}
+.ImagenEquipo{
+	border-radius: 5px;
+	width: 91.25px;
+	height: 97.5px;
+}
+.NombreEquipo{
+	font-family: main-font;
+	font-size: 26px;
+	font-style: normal;
+	line-height: 30,55px;
+	text-align: center;
+	color: #49A078;
+}
+.DescripcionEquipo{
+	font-family: main-font;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	color: #000000;
+}
+.ListaEquipo{
+	padding-left: 0px;
+}
+/*Aqui terminan las reglas de las sección equipo*/
 
 #news {
 
+}
+/* Sección de estilos de servicios */
+.seccion-servicio{
+	width: 100%;
+	height: 380px;
+	min-width: 1200px;
+}
+.sub_titservicios{
+	display: flex;
+	width: 100%;
+	height: 80.58px;
+	align-items: center;
+}
+.tit-servicio{
+	font-size: 42px;
+	color: #49A078;
+	margin-left: 600px;
+}
+.icons_tit{
+	width: 50px;
+	height: 50px;
+	margin-left: 25px;
+}
+.servicio{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	width: 290px;
+	height: 270px;
+	border: 2px solid #ccdbdc;
+	border-radius: 5px;
+	align-items: center;
+}
+.sub_servicios{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.icons{
+	width: 50px;
+	height: 50px;
+	margin-top: 15px;
+}
+.servicio1{
+	margin-left: 45px;
+	align-content: center;
+}
+.servicio3{
+	margin-right: 45px;
+}
+.tit-service{
+	font-size: 26px;
+	color: black;
+	text-align: center;
+}
+.ptit-service{
+	margin-bottom: 0px;
+}
+.descripcion{
+	font-size: 14px;
+	color: black;
+	text-align: center;
+}
+.descrip{
+	margin-top: 5.98px;
+}
+.link{
+	font-size: 14px;
+	color: #49A078;
+	text-decoration: none;
+}
+.link1{
+	margin-top: 16.8px;
+}
+.link2{
+	margin-top: 33.6px;
 }
