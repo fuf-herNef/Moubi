@@ -365,3 +365,56 @@ footer .footer-container {
 	height: 25px;	
 	fill: white;
 }
+
+
+
+.nav-menu{
+	border: 3px solid #49a078;
+	text-align: center;
+}
+
+.ul-menu {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color: white;
+	height: 100%;
+	font-size: 22px;
+}
+
+
+.li-menu {
+	float: right;
+	padding-top: 3px;
+}
+
+.li-logo {
+	float: left;
+}
+
+.li-menu a, .li-logo a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+	text-decoration: none;
+	width: 158px;
+}
+
+.li-menu a:hover {
+    border: 1px solid #49a078;
+}
+
+
+.fondo-img {
+	width: 100%;
+}
+
+.fondo-img img {
+	width: 100%;
+}
+.logo_nav {
+	width: 106px;
+	margin-top: 17px;
+}
