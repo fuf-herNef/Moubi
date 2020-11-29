@@ -27,11 +27,22 @@ npm run test
 ## Secciones
 Requerimiento minimo del desarrollo de la etiquetas **HTML**.
 ```html
-<nav></nav>
-<section id="services"></section>
-<section id="news"></section>
-<section id="team"></section>
-<footer></footer>
+<body>
+	<!-- Brayan -->
+	<nav></nav>
+	
+	<!-- Angela -->
+	<section id="services"></section>
+	
+	<!-- Juan -->
+	<section id="news"></section>
+	
+	<!-- Ivan -->
+	<section id="team"></section>
+
+	<!-- Brayan -->
+	<footer></footer>
+</body>
 ```
 
 ## Descripción
@@ -40,6 +51,24 @@ Desarrollar un sitio web que conste de 5 secciones, cada sección deberá ser re
 Para iniciar con el desarrollo del sitio web, los estudiantes deberán definir previamente aspectos como ancho del sitio (mínimo 1200px), la información a presentar en el sitio web, diseñar un mockup, borrador o bosquejo, también descargar, diseñar o crear los recursos a utilizar como imágenes, iconos, logos, entre otros y finalmente asignar responsable a cada sección.
 
 El proyecto, deberá manejarse versionado en un repositorio remoto en github, en el que los diferentes miembros del equipo deben tener acceso, no se permite el push directo a las ramas Dev o Master.
+
+## Diseño
+<div align="center">
+
+### colores
+![#fefefe](https://via.placeholder.com/15/fefefe/000000?text=+) `#ffffff`
+![#49a078](https://via.placeholder.com/15/49a078/000000?text=+) `#49a078`
+![#dce1de](https://via.placeholder.com/15/dce1de/000000?text=+) `#dce1de`
+![#1f2421](https://via.placeholder.com/15/1f2421/000000?text=+) `#1f2421`
+
+<p align="center">
+	<img align="center" width="400px" src="/docs/style_all.svg"></img>
+</p>
+
+### Fonts
+**Main** [Oswaldo font](https://fonts.google.com/specimen/Oswald) **Secundary** [Tech Search font](https://fonts.google.com/specimen/Share+Tech)
+
+</div>
 
 ## Contribuidores
 
