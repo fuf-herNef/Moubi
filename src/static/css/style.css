@@ -19,10 +19,50 @@ section {
 #services {
 
 }
-
-#team {
-
+/*Aqui empiezan las reglas de las sección equipo*/
+.TituloEquipo{
+	font-family: Maven Pro VF Beta;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	line-height: 49px;
+	text-align: center;
+	color: #49A078;
 }
+.bordeCelda{
+	border: 2px solid #CCDBDC;
+	border-radius: 5px;
+	width:247.28px ;
+	height: 350px;
+}
+.bordeTabla{
+	border-spacing: 45px;
+}
+.ImagenEquipo{
+	border-radius: 5px;
+	width: 81.25px;
+	height: 87.5px;
+}
+.NombreEquipo{
+	font-family: Maven Pro VF Beta;
+	font-size: 26px;
+	font-style: normal;
+	line-height: 30,55px;
+	text-align: center;
+	color: #49A078;
+}
+.DescripcionEquipo{
+	font-family: Maven Pro VF Beta;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	color: #000000;
+}
+.ListaEquipo{
+	padding-left: 0px;
+}
+/*Aqui terminan las reglas de las sección equipo*/
 
 #news {
 
