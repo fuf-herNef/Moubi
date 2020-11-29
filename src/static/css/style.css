@@ -1,5 +1,6 @@
 * {
 	margin: auto
+	@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 }
 
 body {
@@ -26,4 +27,44 @@ section {
 
 #news {
 
+}
+/* Sección de estilos de servicios */
+.seccion-servicio{
+	width: 1200px;
+	height: 380px;
+}
+.sub_titservicios{
+	display: flex;
+	width: 1200px;
+	height: 80.58px;
+}
+.tit-servicio{
+	font-family: 'Maven Pro', sans-serif;;
+	font-style: Maven Pro VF Beta;
+	font-size: 42px;
+	color: #49A078;
+	text-align-last: right;
+}
+.sub_servicios{
+	display: flex;
+}
+.servicio1{
+	width: 290px;
+	height: 270px;
+	border: 2px solid #ccdbdc;
+	border-radius: 5px;
+}
+.servicio2{
+	width: 290px;
+	height: 270px;
+	border: 2px solid #ccdbdc;
+	border-radius: 5px;
+	flex-direction: row;
+}
+.servicio3{
+	width: 290px;
+	height: 270px;
+	border: 2px solid #ccdbdc;
+	border-radius: 5px;
+	flex-direction: row;
 }
