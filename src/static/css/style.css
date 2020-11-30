@@ -1,199 +1,3 @@
-/*
- * Declaración de varibles
- */
-@font-face {
-	font-family: 'main-font';
- 	src: url('../font/Oswald/static/Oswald-Light.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'sd-font';
- 	src: url('../font/Share_Tech/ShareTech-Regular.ttf') format('truetype');
-}
-
-
-:root {
-	--main-color: #ffffff;
-	--txt-color: #1f2421;
-	--sd-color: #49a078;
-	--td-color: #dce1de;
-	--boder-width: 3px;
-}
-
-/*
- * Condiguraciones generales
- */
-* {
-	margin: auto;
-	font-family: 'main-font', 'sd-font';
-	background-color: var(--main-color);
-	color: var(--txt-color);
-}
-
-h1, h2, h3 {
-	color: var(--sd-color);
-	font-weight: bold;
-	padding: 5px;
-}
-.p-30 {
-	padding: 30px;
-}
-
-.p-10 {
-	padding: 10px;
-}
-
-.p-5 {
-	padding: 5px;
-}
-
-.m-30 {
-	margin: 30px;
-}
-
-.m-10 {
-	margin: 10px;
-}
-
-.m-5 {
-	margin: 5px;
-}
-
-.fs-50 {
-	font-size: 50px;
-}
-
-.fs-40 {
-	font-size: 40px;
-}
-
-.fs-30 {
-	font-size: 30px;
-}
-
-.fs-20 {
-	font-size: 20px;
-}
-
-.fs-12 {
-	font-size: 12px;
-}
-.is-flex {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-content: center;
-}
-
-body {
-	width: 100%;
-	min-width: 1200px;
-    	justify-content: center;
-    	background-color: var(--main-color);
-}
-
-nav, header, section, footer {
-	width: 100%;
-	padding: 5px;
-}
-
-section {
-	margin: 10px 0px;
-}
-/*
- * Clases genericas
- */
-
-.align-center {
-	text-align: center;
-}
-
-/*
- * Horizontal Card
- */
-
-.max-container {
-	width: 100%;
-	position: relative;
-	display: inline-flex;
-	justify-content: space-between;
-}
-
-.card-container {
-	width: 100%;
-	position: relative;
-	display: flex;
-	justify-content: space-between;
-}
-
-.dir-flex-col {
-	flex-direction: column;
-}
-
-.dir-flex-row {
-	flex-direction: row;
-}
-
-.card-container > .card {
-	min-width: 25%;
-	display: flex;
-	position: relative;
-	margin: 10px;
-	border-bottom: var(--boder-width) solid var(--sd-color);
-    	box-shadow: 0 20px 50px rgba(0,0,0,0.1);
-}
-
-svg {
-	width: 40px;
-	height:40px;
-}
-
-svg > * {	
-	stroke: var(--sd-color);
-}
-
-.card-container > .card:hover {
-    	box-shadow: 0 20px 50px rgba(0,0,0,0.3);
-}
-
-.border--left {
-	border-left: var(--boder-width) solid var(--sd-color);
-}
-
-.border--right {
-	border-right: var(--boder-width)  solid var(--sd-color);
-}
-
-.card ._image {
-	overflow: hidden;
-	width: 60%;
-}
-
-.card ._content {
-	width: 70%;
-}
-
-.card ._content > h3 {
-	color: var(--sd-color);
-}
-
-/*
-/*
- * Diseño de las secciones
- */
-#services {
-
-}
-/*Aqui empiezan las reglas de las sección equipo*/
-.TituloEquipo{
-	font-family: main-font;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 42px;
-	line-height: 49px;
-	text-align: center;
-	color: #49A078;
-}
 .IconoTituloEquipo{
 	position: relative;
 	bottom: 40px;
@@ -236,11 +40,7 @@ svg > * {
 .ListaEquipo{
 	padding-left: 0px;
 }
-/*Aqui terminan las reglas de las sección equipo*/
 
-#news {
-
-}
 /* Sección de estilos de servicios */
 .seccion-servicio{
 	width: 100%;
@@ -318,6 +118,8 @@ svg > * {
 .link2{
 	margin-top: 33.6px;
 }
+
+
 footer .footer-container {
 	background-color: #49a078;
 	height: 160px;
@@ -326,8 +128,6 @@ footer .footer-container {
 }
 
 .footer-containerm, .footer-content {
-	/* border: 1px solid #CCC; */
-	/* background-color: #E0E0E0; */
 	overflow: hidden;
 }
 
@@ -340,13 +140,11 @@ footer .footer-container {
 	width: 45%;
 	--main-color:  #49a078;
 	
-	/* border: 2px solid #1f2421; */
 }
 .footer-left { 
 	float: left;  
 	width: 45%;
 	padding-left: 110px;
-	/* border: 2px solid #1f2421; */
 	--main-color:  #49a078;
 
 }
@@ -366,55 +164,3 @@ footer .footer-container {
 	fill: white;
 }
 
-
-
-.nav-menu{
-	border: 3px solid #49a078;
-	text-align: center;
-}
-
-.ul-menu {
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-	background-color: white;
-	height: 100%;
-	font-size: 22px;
-}
-
-
-.li-menu {
-	float: right;
-	padding-top: 3px;
-}
-
-.li-logo {
-	float: left;
-}
-
-.li-menu a, .li-logo a {
-    display: block;
-    color: #333;
-    text-align: center;
-    padding: 14px 16px;
-	text-decoration: none;
-	width: 158px;
-}
-
-.li-menu a:hover {
-    border: 1px solid #49a078;
-}
-
-
-.fondo-img {
-	width: 100%;
-}
-
-.fondo-img img {
-	width: 100%;
-}
-.logo_nav {
-	width: 106px;
-	margin-top: 17px;
-}

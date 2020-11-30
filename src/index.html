@@ -3,190 +3,209 @@
 	<head>
 	    	<meta charset="UTF-8">
 	    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="static/css/style.css"></link>
+		<link rel="stylesheet" href="static/css/__init__.css"></link>
 		<link rel="shortcut icon" href="static/icon/favicon.ico"></link>
 	    	<title>Möbi</title>
 	</head>
 	
 	<body>
-	<!-- Header Section -->
-		<nav class="nav-menu">
-			<ul class="ul-menu">
-				<li class="li-logo" style="padding-left: 160px;"><img class="logo_nav" src="./static/icon/icon_picto.svg"></li>
-				<li class="li-logo"><a style="/*! margin-left: 0px; */padding-left: 21px;text-align: left;font-size: 33px; color: #49a078;">Möbi</a></li>
-				<li class="li-menu"><a style="padding-top: 11px;padding-bottom: 7px;"><svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Search Circle</title><path d="M256 64C150.13 64 64 150.13 64 256s86.13 192 192 192 192-86.13 192-192S361.87 64 256 64zm80 294.63l-54.15-54.15a88.08 88.08 0 1122.63-22.63L358.63 336z"/><circle cx="232" cy="232" r="56"/></svg></a></li>
-				<li class="li-menu"><a href="#team"><b>Equipo</b></a></li>
-				<li class="li-menu"><a href="#news"><b>Noticias</b></a></li>
-				<li class="li-menu"><a href="#services"><b>Nuestros servicios</b></a></li>
-				<li class="li-menu"><a href="#"><b>Inicio</b></a></li>
-			</ul>
+
+
+		<!-- Header Section -->
+		<nav class="navbar border--b border--ws">
+			<div class="logo">
+				<img src="static/icon/icon_picto.svg"></img>
+				<h1>MÖBI</h1>
+			</div>
+			<div class="menu">
+				<ul class="ul-menu">
+					<li class="li-menu"><a href="#services">Services</a></li> 
+					<li class="li-menu"><a href="#news">News</a></li> 
+					<li class="li-menu"><a href="#team">Team</a></li> 
+					<li class="li-menu"><a href="#home">Home</a></li> 
+				</ul>
+			</div>
 		</nav>
+
 		<header>
-			<div class="fondo-img">
-				<img src="./static/icon/07-WIR2019_Capgeminicom_1600x480px-1-24.jpg" alt="">
+			<div class="fondo-img" id="home">
+				<img src="./static/icon/07-WIR2019_Capgeminicom_1600x480px-1-24.jpg" alt="moubi">
 			</div>
 		</header>
 
-	<!-- Services Section -->
-		<section id="services" name="services">
-			<div class="seccion-servicio">
-				<!-- Sección del título -->
-				
-				<div class="is-flex dir-flex-row">
-					<h2 class="fs-40">Nuestro Servicio</h2>
-					<svg height="512pt" viewBox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg">
-						<path fill="#49A078" d="m90.050781 395.949219c-7.167969 0-14.058593 1.789062-20.171875 5.148437-32.203125-41.28125-49.878906-92.5625-49.878906-145.097656 0-130.132812 105.867188-236 236-236 15.820312 0 31.632812 1.574219 47 4.679688 5.40625 1.09375 10.6875-2.40625 11.78125-7.820313s-2.40625-10.6875-7.820312-11.785156c-16.667969-3.367188-33.8125-5.074219-50.960938-5.074219-68.378906 0-132.667969 26.628906-181.019531 74.980469-48.351563 48.351562-74.980469 112.640625-74.980469 181.019531 0 57.519531 19.53125 113.652344 55.089844 158.652344-4.578125 6.839844-7.039063 14.878906-7.039063 23.296875 0 11.21875 4.371094 21.765625 12.304688 29.695312 7.929687 7.933594 18.476562 12.304688 29.695312 12.304688s21.765625-4.371094 29.699219-12.304688c7.933594-7.929687 12.300781-18.480469 12.300781-29.699219 0-11.214843-4.367187-21.765624-12.300781-29.695312-7.933594-7.933594-18.480469-12.300781-29.699219-12.300781zm15.554688 57.554687c-4.152344 4.15625-9.679688 6.445313-15.554688 6.445313s-11.398437-2.289063-15.554687-6.445313-6.445313-9.679687-6.445313-15.554687c0-5.878907 2.289063-11.402344 6.445313-15.558594 4.152344-4.15625 9.679687-6.441406 15.554687-6.441406s11.398438 2.289062 15.554688 6.441406c4.15625 4.15625 6.445312 9.679687 6.445312 15.558594 0 5.875-2.289062 11.398437-6.445312 15.554687zm0 0"/>
-						<path fill="#49A078" d="m456.902344 97.335938c10.871094-16.308594 9.125-38.605469-5.253906-52.984376-7.933594-7.929687-18.480469-12.300781-29.699219-12.300781s-21.765625 4.371094-29.699219 12.300781c-7.933594 7.933594-12.300781 18.480469-12.300781 29.699219s4.367187 21.765625 12.300781 29.699219 18.480469 12.300781 29.699219 12.300781c7.167969 0 14.058593-1.789062 20.171875-5.148437 32.203125 41.285156 49.878906 92.5625 49.878906 145.097656 0 130.132812-105.867188 236-236 236-15.664062 0-31.328125-1.542969-46.550781-4.589844-5.414063-1.082031-10.683594 2.429688-11.769531 7.84375-1.082032 5.417969 2.429687 10.683594 7.84375 11.769532 16.511718 3.300781 33.496093 4.976562 50.476562 4.976562 68.378906 0 132.667969-26.628906 181.019531-74.980469 48.351563-48.351562 74.980469-112.640625 74.980469-181.019531 0-57.523438-19.535156-113.660156-55.097656-158.664062zm-50.507813-7.726563c-4.15625-4.15625-6.445312-9.679687-6.445312-15.558594 0-5.875 2.289062-11.398437 6.445312-15.554687 4.152344-4.15625 9.679688-6.445313 15.554688-6.445313s11.402343 2.289063 15.558593 6.445313c8.574219 8.578125 8.574219 22.535156 0 31.113281-4.15625 4.152344-9.683593 6.441406-15.558593 6.441406-5.878907 0-11.402344-2.289062-15.554688-6.441406zm0 0"/>
-						<path fill="#49A078" d="m214.734375 428c0 5.523438 4.480469 10 10 10h62.527344c5.523437 0 10-4.476562 10-10v-19.386719c13.148437-3.539062 25.71875-8.75 37.53125-15.554687l13.6875 13.6875c1.875 1.875 4.417969 2.929687 7.074219 2.929687 2.648437 0 5.195312-1.054687 7.070312-2.933593l44.195312-44.226563c3.902344-3.90625 3.902344-10.238281 0-14.140625l-13.671874-13.671875c6.804687-11.8125 12.015624-24.382813 15.554687-37.53125h19.3125c5.523437 0 10-4.476563 10-10v-62.527344c0-5.523437-4.476563-10-10-10h-19.316406c-3.539063-13.144531-8.746094-25.714843-15.550781-37.527343l13.597656-13.597657c1.875-1.875 2.929687-4.421875 2.929687-7.074219-.003906-2.652343-1.058593-5.199218-2.933593-7.074218l-44.230469-44.195313c-3.902344-3.902343-10.234375-3.902343-14.140625.003907l-13.578125 13.582031c-11.8125-6.804688-24.382813-12.015625-37.53125-15.554688v-19.207031c0-5.523438-4.476563-10-10-10h-62.527344c-5.519531 0-10 4.476562-10 10v19.210938c-13.144531 3.535156-25.714844 8.746093-37.527344 15.550781l-13.582031-13.582031c-3.902344-3.902344-10.234375-3.90625-14.140625-.003907l-44.226563 44.199219c-1.878906 1.875-2.933593 4.417969-2.933593 7.070312 0 2.652344 1.054687 5.199219 2.929687 7.074219l13.597656 13.597657c-6.804687 11.8125-12.015624 24.378906-15.554687 37.527343h-19.277344c-5.523437 0-10 4.476563-10 9.996094l-.035156 62.527344c-.003906 2.652343 1.050781 5.199219 2.925781 7.074219s4.417969 2.929687 7.074219 2.929687h19.3125c3.539063 13.148437 8.75 25.71875 15.554687 37.53125l-13.671874 13.671875c-3.902344 3.902344-3.90625 10.234375 0 14.140625l44.195312 44.226563c1.875 1.875 4.417969 2.933593 7.070312 2.933593h.003907c2.652343 0 5.195312-1.054687 7.070312-2.929687l13.683594-13.6875c11.816406 6.804687 24.386719 12.015625 37.53125 15.554687zm-33.609375-55.972656c-3.957031-2.558594-9.164062-2.003906-12.5 1.328125l-12.175781 12.175781-30.058594-30.082031 12.164063-12.167969c3.332031-3.332031 3.886718-8.539062 1.328124-12.496094-9.066406-14.03125-15.441406-29.410156-18.941406-45.714844-.992187-4.605468-5.0625-7.898437-9.777344-7.898437h-17.175781l.023438-42.527344h17.152343c4.714844 0 8.785157-3.289062 9.777344-7.898437 3.5-16.300782 9.875-31.679688 18.941406-45.710938 2.558594-3.957031 2.003907-9.164062-1.328124-12.496094l-12.085938-12.089843 30.082031-30.058594 12.074219 12.078125c3.335938 3.332031 8.539062 3.882812 12.5 1.328125 14.027344-9.066406 29.40625-15.441406 45.710938-18.941406 4.605468-.992188 7.898437-5.066407 7.898437-9.777344v-17.078125h42.527344v17.074219c0 4.714843 3.289062 8.789062 7.898437 9.777343 16.300782 3.503907 31.683594 9.875 45.710938 18.941407 3.957031 2.558593 9.164062 2.007812 12.496094-1.328125l12.078124-12.074219 30.082032 30.058594-12.085938 12.085937c-3.335937 3.335938-3.886718 8.542969-1.328125 12.5 9.066407 14.03125 15.4375 29.410156 18.941407 45.710938.988281 4.609375 5.0625 7.898437 9.777343 7.898437h17.183594v42.527344h-17.183594c-4.714843 0-8.785156 3.292969-9.777343 7.898437-3.5 16.300782-9.875 31.683594-18.941407 45.710938-2.558593 3.960938-2.003906 9.167969 1.328125 12.5l12.164063 12.164062-30.058594 30.082032-12.175781-12.171875c-3.335938-3.335938-8.542969-3.886719-12.5-1.328125-14.03125 9.066406-29.410156 15.4375-45.710938 18.941406-4.609375.992188-7.898437 5.0625-7.898437 9.777344v17.253906h-42.527344v-17.253906c0-4.710938-3.292969-8.785156-7.898437-9.777344-16.300782-3.5-31.679688-9.875-45.710938-18.941406zm0 0"/>
-						<path fill="#49A078" d="m338.628906 256c0-45.5625-37.066406-82.628906-82.628906-82.628906s-82.628906 37.066406-82.628906 82.628906 37.066406 82.628906 82.628906 82.628906 82.628906-37.066406 82.628906-82.628906zm-145.257812 0c0-34.535156 28.09375-62.628906 62.628906-62.628906s62.628906 28.097656 62.628906 62.628906-28.09375 62.628906-62.628906 62.628906-62.628906-28.09375-62.628906-62.628906zm0 0"/>
-						<path fill="#49A078" d="m348.078125 37.820312c2.632813 0 5.210937-1.070312 7.070313-2.929687 1.859374-1.871094 2.929687-4.449219 2.929687-7.082031 0-2.617188-1.066406-5.199219-2.929687-7.070313-1.859376-1.859375-4.4375-2.929687-7.070313-2.929687-2.640625 0-5.207031 1.070312-7.066406 2.929687-1.863281 1.871094-2.933594 4.441407-2.933594 7.070313 0 2.640625 1.070313 5.210937 2.933594 7.082031 1.859375 1.859375 4.425781 2.929687 7.066406 2.929687zm0 0"/>
-						<path fill="#49A078" d="m164.359375 474.359375c-2.628906 0-5.210937 1.070313-7.070313 2.929687-1.859374 1.859376-2.929687 4.441407-2.929687 7.070313 0 2.640625 1.070313 5.210937 2.929687 7.070313 1.859376 1.859374 4.441407 2.929687 7.070313 2.929687s5.210937-1.070313 7.070313-2.929687c1.859374-1.859376 2.929687-4.441407 2.929687-7.070313s-1.070313-5.210937-2.929687-7.070313c-1.859376-1.859374-4.441407-2.929687-7.070313-2.929687zm0 0"/></svg>						
-				</div>
-				<!-- Sección de los servicios -->
-				<div class="sub_servicios">
-					<!-- Servicio 1 -->
-					<div class="servicio1 servicio">
-						<img class="icons" src="static/icon/domotica.svg">
-						<h2 class="tit-service">Domótica</h2>
-						<p class="descripcion">Control de iluminación, entretenimiento, seguridad y confort a su alcance.</p>
-						<a href="#" class="link link1">Domótica</a>
-					</div>
-					<!-- Servicio 2 -->
-					<div class="servicio2 servicio">
-						<img class="icons" src="static/icon/image 1.svg">
-						<h2 class="tit-service ptit-service">Recolección de datos ambientales</h2>
-						<p class="descripcion descrip">Optimizar el proceso de cultivar la tierra mediante el monitoreo,
-							el almacenamiento de satos y la evaluación automatizada.</p>
-						<a href="#" class="link">Recolección de datos ambientales</a>
-					</div>
-					<!-- Servicio 3 -->
-					<div class="servicio3 servicio">
-						<img class="icons" src="static/icon/analitica.svg">
-						<h2 class="tit-service">Visualización de datos</h2>
-						<p class="descripcion">Representación gráfica de información y datos.</p>
-						<a href="#" class="link link2">Visualización de datos</a>
-					</div>
-				</div>
+
+		<!-- Services -->
+		<section id="services">
+			<div class="flex-is flex-dr flex-jc">
+				<h2 class="fs-40">OUR SERVICES</h2>	
+				<i class="ico-awesome ico-cogs color-secundary"></i>
 			</div>
+
+			<div class="card-container-super flex-dr">	
+				<div class="card-container flex-dr">
+					<div class="card vertical flex-dc border--a mx-2">
+						<div class="_image">
+							<img class="icons" src="static/icon/domotica.svg">
+						</div>
+						<div class="_content align-center">
+							<h3>Domótica</h3>
+							<p>Control de iluminación, entretenimiento, seguridad y confort a su alcance.</p>
+						</div>
+					</div>
+					<div class="card vertical flex-dc border--a mx-2">
+						<div class="_image">
+							<img class="icons" src="static/icon/image 1.svg">
+						</div>
+						<div class="_content align-center">
+							<h3>Recolección de datos ambientales</h3>
+							<p class="descripcion descrip">Optimizar el proceso de cultivar la tierra mediante el monitoreo,
+						</div>
+					</div>
+					<div class="card vertical flex-dc border--a mx-2">
+						<div class="_image">
+							<img class="icons" src="static/icon/analitica.svg">
+						</div>
+						<div class="_content align-center">
+							<h3>Visualización de datos</h3>
+							<p class="descripcion">Representación gráfica de información y datos.</p>
+						</div>
+					</div>
+
+
+				<div>
+			</div>	
 		</section>
 
-	<!-- News Section -->
-		<section id="news" class="align-center" name="news">
-			<div class="is-flex dir-flex-row">
-				<h2 class="fs-40">News</h2>
-				<svg class="fa" xmlns="http://www.w4.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>Globe</title><path d="M256 48C141.13 48 48 141.13 48 256s93.13 208 208 208 208-93.13 208-208S370.87 48 256 48z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path d="M256 48c-58.07 0-112.67 93.13-112.67 208S197.93 464 256 464s112.67-93.13 112.67-208S314.07 48 256 48z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/><path d="M117.33 117.33c38.24 27.15 86.38 43.34 138.67 43.34s100.43-16.19 138.67-43.34M394.67 394.67c-38.24-27.15-86.38-43.34-138.67-43.34s-100.43 16.19-138.67 43.34" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" d="M256 48v416M464 256H48"/></svg>
+		<!-- News Section -->
+		<section id="news" class="align-center">
+			
+			<div class="flex-is flex-dr flex-jc">
+				<h2 class="fs-40">NEWS</h2>	
+				<i class="ico-awesome ico-web color-secundary"></i>
 			</div>
-			<div class="max-container dir-flex-row">
-				<div class="card-container dir-flex-row">
-					<div class="card dir-flex-col border--right">
+
+			<div class="card-container-super flex-dr">	
+				<div class="card-container flex-dr">
+					<div class="card vertical flex-dc">
 						<div class="_image">
+						<img src="https://images.idgesg.net/images/article/2020/01/cw_forest_fire_at_night__byronsdad_gettyimages-157478613-100827775-large.jpg" alt="news_iot">
 						</div>
 						<div class="_content">
+							<h3>German IoT startup Dryad wants to help prevent forest fires</h3>
+							<h4>Dryad Networks is prepping an IoT network of sensors connected via a solar-powered wireless mesh for deployment in forests as an early warning system to detect fires.</h4>
+							<p>A German startup wants to use IoT sensors and a wireless-mesh network to detect forest fires within 10 minutes to an hour of when they start as opposed to the hours or even days it can take using current methods based on thermal imaging, 
+								<a class="read-more" href="https://www.networkworld.com/article/3596886/german-iot-startup-dryad-wants-to-help-prevent-forest-fires.html"></a>
+							</p>
+							<h4 class="author"> <span class="name">Jon Gold</span> Senior Writer, Network World </h4>
 						</div>
 					</div>
-					<div class="card-container dir-flex-col">
-						<div class="card dir-flex-row border--left">
+				</div>
+				
+				<div class="card-container flex-dc">
+						<div class="card horizontal flex-dr my-1">
 							<div class="_image">
 								<img src="https://wi-images.condecdn.net/image/YkKme9RWq0j/crop/810/f/smart-cities-1.jpg" alt="news_iot"/>
 							</div>
 							<div class="_content">
-								<h3 class="fs-30 p-10"> 7 smart city innovations you need to know about </h3>
-								<h4 class="fs-20 p-10"> How the Internet of Things (IoT) is connecting up our cities in real-time. </h4>
-								<p class="fs-12 p-10">
+								<h3> 7 smart city innovations you need to know about </h3>
+								<h4> How the Internet of Things (IoT) is connecting up our cities in real-time. </h4>
+								<p>
 Smart cities are on their way – and this time they're for real. Disparate aspects of cities are beginning to connect with internet of things (IoT) devices.
 
-"Projects look at a single system – like transport – but don't link it with say, health," says Steve Turner, head of the Future City programme at Manchester City Council. "The next big challenge for the IoT is to link all the city systems."
-
-
-Manchester City Council launched its CityVerve project in July to connect the city's health, transport, environment and services with 20 kinds of sensors. The data from the initiative – funded by a £10 million prize from the Department for Culture, Media and Sport – will be used to make city planning more responsive.
-
-In the meantime, here are some of the standout city innovations WIRED is keeping an eye on.
-
-									<a href="https://www.wired.co.uk/article/smart-cities-start-ups">read more ...</a>
+"Projects look at a single system – like transport – but don't link it with say, health," says Steve Turner, head of the Future City
+									<a class="read-more" href="https://www.wired.co.uk/article/smart-cities-start-ups"></a>
 								</p>
+								<h4 class="author"> <span class="name">Cara Mcgogan</span> tuesday 16 august 2016</h4>
 							</div>
 						</div>
-						<div class="card dir-flex-row border--right">
+
+						<div class="card horizontal flex-dr my-1">
 							<div class="_image">
 
 								<img src="https://www.grupobancolombia.com/wps/wcm/connect/97bffd2d-86cb-42d2-87ec-0a8adb64f507/imagenSitio-iot.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-97bffd2d-86cb-42d2-87ec-0a8adb64f507-mlZCV-B" alt="news_iot"/>
 							</div>
-							<div class="_content">
-								<h3 class="fs-30 p-10"> Internet de las Cosas: ¿cómo lo ha adoptado Colombia?</h3>
-								<h4 class="fs-20 p-10"> .Vicepresidencia de Innovación y Transformación Digital Grupo Bancolombia </h4>
-								<p class="fs-12 p-10">
-El proceso de transformación digital es imparable. Las tecnologías emergentes como la inteligencia artificial, las impresoras 3D, el Internet de las Cosas (IoT, por sus siglas en inglés) y el blockchain marcan la pauta en cuanto a innovación digital.
-
-Sin embargo, se estima que en Colombia solo dos de cada diez empresas utilizan una solución basada en IoT, pero que ocho de cada diez cuentan con un proyecto de transformación digital, de acuerdo con el último informe realizado por Identidad IoT, empresa colombiana experta en esta tecnología.
-								<a href="https://www.grupobancolombia.com/wps/portal/empresas/capital-inteligente/tendencias/innovacion/iot-como-lo-ha-adoptado-colombia">read more ...</a>
+							<div class="_content">	
+								<h3>Internet de las Cosas: ¿cómo lo ha adoptado Colombia?</h3>
+								<h4>Vicepresidencia de Innovación y Transformación Digital Grupo Bancolombia </h4>
+								<p>
+El proceso de transformación digital es imparable. Las tecnologías emergentes como la inteligencia artificial, las impresoras 3D, el Internet de las Cosas (IoT, por sus siglas en inglés) y el blockchain marcan la pauta en cuanto a innovación digital.								<a class="read-more" href="https://www.grupobancolombia.com/wps/portal/empresas/capital-inteligente/tendencias/innovacion/iot-como-lo-ha-adoptado-colombia"></a>
 								</p>
 
+								<h4 class="author"> <span class="name">vicepresidencia de innovación y transformación digital</span> grupo bancolombia</h4>
 							</div>
 						</div>
-					</div>
-					
+				</div>
+				<div class="card-container flex-dr">
+					<div class="card vertical flex-dc">
+						<div class="_image">
+							<img src="https://cdn.vox-cdn.com/thumbor/ccUXiV2jhFNVZicsg12fL9YJGh8=/0x0:2040x1360/920x613/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/67347735/acastro_180510_1777_alexa_0002.0.jpg" alt="news_iot"></img>
+						</div>
+						<div class="_content">
+							<h3>Amazon Alexa for Residential will let the voice assistant power apartment complexes</h3>
+							<h4>AMAZON SAYS LANDLORDS WOULD NOT HAVE ACCESS TO ANY TENANT DATA</h4>
+							<p>Amazon on Thursday announced Alexa for Residential, a new program designed to make it easier for landlords and property managers to add Alexa devices to rental units to create smart apartments (smarpartments? smartments?). The company is billing it as a service “that makes having an Alexa-enabled home accessible for anyone, regardless of whether they rent or own their home.”
+							<a class="read-more" href="https://www.theverge.com/2020/9/3/21419812/amazon-alexa-residential-apartment-privacy"></a>
 
-				</div>
-			</div>
-			<!--<div class="cards-container">
-				<div class="card">
-					<div class="face top">
-						<div class="icon">
-						</div>
-					</div>
-					<div class="face under">
-						<div class="content">
-							<h2>Noticia 1</h2>
+							</p>
+							<h4 class="author">By <span class="name">Kim Lyons</span>  Sep 3, 2020, 11:38am EDT</h4>
 						</div>
 					</div>
 				</div>
-
-				<div class="cards-container direction-col">
-				<div class="card">
-					<div class="face top">
-						<div class="icon">
-						</div>
-					</div>
-					<div class="face under">
-						<div class="content">
-							<h2>Noticia 2</h2>
-						</div>
-					</div>
-				</div>
-				<div class="card">
-					<div class="face top">
-						<div class="icon">
-						</div>
-					</div>
-					<div class="face under">
-						<div class="content">
-							<h2>Noticia 2</h2>
-						</div>
-					</div>
-				</div>
-				</div>
-
-				<div class="card">
-					<div class="face top">
-						<div class="icon">
-						</div>
-					</div>
-					<div class="face under">
-						<div class="content">
-							<h2>Noticia 2</h2>
-						</div>
-					</div>
-				</div>
-
-			</div>-->
+			</div>		
 		</section>
 
-	<!-- Team Section -->
-		<section id="team" name="team">
-			<div class="is-flex dir-flex-row">
-				<h2 class="fs-40">Equipo</h2>
-				<svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512"><title>People Circle</title><path d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm69.3 96.17a72.5 72.5 0 11-72.6 72.5 72.55 72.55 0 0172.6-72.5zm-155.1 26.36a59.32 59.32 0 11-59.4 59.32 59.35 59.35 0 0159.4-59.32zm-75.85 155c24.5-13.29 55.87-19.94 75.85-19.94 15 0 34.32 3 53.33 10.2a133.05 133.05 0 00-34 27.11c-13.19 15-20.76 32.92-20.76 50.83v15a177.06 177.06 0 01-74.42-83.15zM256 432a175.12 175.12 0 01-59.4-10.33v-27.05c0-52.59 85.75-79.09 128.7-79.09 23 0 58.38 7.63 86.21 22.81A176.14 176.14 0 01256 432z"/></svg>	
+		<!--
+		<section id="team">
+			<div class="flex-is flex-dr flex-jc">
+				<h2 class="fs-40">TEAM</h2>	
+				<i class="ico-awesome ico-users color-secundary"></i>
 			</div>
+			<div class="card-container-super flex-dr">	
+				<div class="card-container flex-dr">
+						<div class="_image">
+							<img class="icons" src="static/icon/domotica.svg">
+						</div>
+						<div class="_content align-center">
+							<h3>Domótica</h3>
+							<p>Control de iluminación, entretenimiento, seguridad y confort a su alcance.</p>
+						</div>
+					</div>
+						<div class="_image">
+							<img class="icons" src="static/icon/image 1.svg">
+						</div>
+						<div class="_content align-center">
+							<h3>Recolección de datos ambientales</h3>
+							<p class="descripcion descrip">Optimizar el proceso de cultivar la tierra mediante el monitoreo,
+						</div>
+					</div>
+						<div class="_image">
+							<img class="icons" src="static/icon/analitica.svg">
+						</div>
+						<div class="_content align-center">
+							<h3>Visualización de datos</h3>
+							<p class="descripcion">Representación gráfica de información y datos.</p>
+						</div>
+					</div>
+						<div class="_image">
+							<img class="icons" src="static/icon/analitica.svg">
+						</div>
+						<div class="_content align-center">
+							<h3>Visualización de datos</h3>
+							<p class="descripcion">Representación gráfica de información y datos.</p>
+						</div>
+					</div>
+				<div>
+			</div>	
+		</section>
+		-->
+	
+
+		<section id="team" name="team">
+			<div class="flex-is flex-dr flex-jc">
+				<h2 class="fs-40">TEAM</h2>	
+				<i class="ico-awesome ico-users color-secundary"></i>
+			</div>
+
 			<table wight="100%" class="bordeTabla">
 				<tr >
 					<th class="bordeCelda">
@@ -226,7 +245,7 @@ Sin embargo, se estima que en Colombia solo dos de cada diez empresas utilizan u
 						</ul>
 					</th>
 					<th class="bordeCelda">
-						<img src="static/img/ImgMateo.JPG" alt="Iván Mateo Bohórquez Pérez" class="ImagenEquipo">
+						<img src="static/img/ImgMateo.jpg" alt="Iván Mateo Bohórquez Pérez" class="ImagenEquipo">
 						<h3 class="NombreEquipo">Iván M</h3>
 						<h3 class="NombreEquipo">Bohórquez P</h3>
 						<ul class="ListaEquipo">
@@ -241,46 +260,46 @@ Sin embargo, se estima que en Colombia solo dos de cada diez empresas utilizan u
 			</table>
 		</section>
 
-	<!-- Footer Section -->
-	<footer>
-		<section class="footer-container">
-			<div class="footer-left">
-				<div class="footer-content">
-					<svg height="512pt" class="img-left" viewBox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg"><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm-74.390625 387h-62.347656v-187.574219h62.347656zm-31.171875-213.1875h-.40625c-20.921875 0-34.453125-14.402344-34.453125-32.402344 0-18.40625 13.945313-32.410156 35.273437-32.410156 21.328126 0 34.453126 14.003906 34.859376 32.410156 0 18-13.53125 32.402344-35.273438 32.402344zm255.984375 213.1875h-62.339844v-100.347656c0-25.21875-9.027343-42.417969-31.585937-42.417969-17.222656 0-27.480469 11.601563-31.988282 22.800781-1.648437 4.007813-2.050781 9.609375-2.050781 15.214844v104.75h-62.34375s.816407-169.976562 0-187.574219h62.34375v26.558594c8.285157-12.78125 23.109375-30.960937 56.1875-30.960937 41.019531 0 71.777344 26.808593 71.777344 84.421874zm0 0"/></svg>
-					<ul>Möbi</ul>
+
+		<footer>
+			<section class="footer-container">
+				<div class="footer-left">
+					<div class="footer-content">
+						<svg height="512pt" class="img-left" viewBox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg"><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm-74.390625 387h-62.347656v-187.574219h62.347656zm-31.171875-213.1875h-.40625c-20.921875 0-34.453125-14.402344-34.453125-32.402344 0-18.40625 13.945313-32.410156 35.273437-32.410156 21.328126 0 34.453126 14.003906 34.859376 32.410156 0 18-13.53125 32.402344-35.273438 32.402344zm255.984375 213.1875h-62.339844v-100.347656c0-25.21875-9.027343-42.417969-31.585937-42.417969-17.222656 0-27.480469 11.601563-31.988282 22.800781-1.648437 4.007813-2.050781 9.609375-2.050781 15.214844v104.75h-62.34375s.816407-169.976562 0-187.574219h62.34375v26.558594c8.285157-12.78125 23.109375-30.960937 56.1875-30.960937 41.019531 0 71.777344 26.808593 71.777344 84.421874zm0 0"/></svg>
+						<ul>Möbi</ul>
+					</div>
+					<div class="footer-content">
+						<svg height="512pt" class="img-left" viewBox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg"><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm116.886719 199.601562c.113281 2.519532.167969 5.050782.167969 7.59375 0 77.644532-59.101563 167.179688-167.183594 167.183594h.003906-.003906c-33.183594 0-64.0625-9.726562-90.066406-26.394531 4.597656.542969 9.277343.8125 14.015624.8125 27.53125 0 52.867188-9.390625 72.980469-25.152344-25.722656-.476562-47.410156-17.464843-54.894531-40.8125 3.582031.6875 7.265625 1.0625 11.042969 1.0625 5.363281 0 10.558593-.722656 15.496093-2.070312-26.886718-5.382813-47.140624-29.144531-47.140624-57.597657 0-.265624 0-.503906.007812-.75 7.917969 4.402344 16.972656 7.050782 26.613281 7.347657-15.777343-10.527344-26.148437-28.523438-26.148437-48.910157 0-10.765624 2.910156-20.851562 7.957031-29.535156 28.976563 35.554688 72.28125 58.9375 121.117187 61.394532-1.007812-4.304688-1.527343-8.789063-1.527343-13.398438 0-32.4375 26.316406-58.753906 58.765625-58.753906 16.902344 0 32.167968 7.144531 42.890625 18.566406 13.386719-2.640625 25.957031-7.53125 37.3125-14.261719-4.394531 13.714844-13.707031 25.222657-25.839844 32.5 11.886719-1.421875 23.214844-4.574219 33.742187-9.253906-7.863281 11.785156-17.835937 22.136719-29.308593 30.429687zm0 0"/></svg>
+						<ul>Möbi</ul>
+					</div>
+					<div class="footer-content">
+						<svg id="Capa_1" class="img-left" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m512 256c0-141.4-114.6-256-256-256s-256 114.6-256 256 114.6 256 256 256c1.5 0 3 0 4.5-.1v-199.2h-55v-64.1h55v-47.2c0-54.7 33.4-84.5 82.2-84.5 23.4 0 43.5 1.7 49.3 2.5v57.2h-33.6c-26.5 0-31.7 12.6-31.7 31.1v40.8h63.5l-8.3 64.1h-55.2v189.5c107-30.7 185.3-129.2 185.3-246.1z"/></svg>
+						<ul>Möbi</ul>
+					</div>
+					<div class="footer-content">
+						<svg height="512pt" class="img-left" viewBox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg"><path d="m305 256c0 27.0625-21.9375 49-49 49s-49-21.9375-49-49 21.9375-49 49-49 49 21.9375 49 49zm0 0"/><path d="m370.59375 169.304688c-2.355469-6.382813-6.113281-12.160157-10.996094-16.902344-4.742187-4.882813-10.515625-8.640625-16.902344-10.996094-5.179687-2.011719-12.960937-4.40625-27.292968-5.058594-15.503906-.707031-20.152344-.859375-59.402344-.859375-39.253906 0-43.902344.148438-59.402344.855469-14.332031.65625-22.117187 3.050781-27.292968 5.0625-6.386719 2.355469-12.164063 6.113281-16.902344 10.996094-4.882813 4.742187-8.640625 10.515625-11 16.902344-2.011719 5.179687-4.40625 12.964843-5.058594 27.296874-.707031 15.5-.859375 20.148438-.859375 59.402344 0 39.25.152344 43.898438.859375 59.402344.652344 14.332031 3.046875 22.113281 5.058594 27.292969 2.359375 6.386719 6.113281 12.160156 10.996094 16.902343 4.742187 4.882813 10.515624 8.640626 16.902343 10.996094 5.179688 2.015625 12.964844 4.410156 27.296875 5.0625 15.5.707032 20.144532.855469 59.398438.855469 39.257812 0 43.90625-.148437 59.402344-.855469 14.332031-.652344 22.117187-3.046875 27.296874-5.0625 12.820313-4.945312 22.953126-15.078125 27.898438-27.898437 2.011719-5.179688 4.40625-12.960938 5.0625-27.292969.707031-15.503906.855469-20.152344.855469-59.402344 0-39.253906-.148438-43.902344-.855469-59.402344-.652344-14.332031-3.046875-22.117187-5.0625-27.296874zm-114.59375 162.179687c-41.691406 0-75.488281-33.792969-75.488281-75.484375s33.796875-75.484375 75.488281-75.484375c41.6875 0 75.484375 33.792969 75.484375 75.484375s-33.796875 75.484375-75.484375 75.484375zm78.46875-136.3125c-9.742188 0-17.640625-7.898437-17.640625-17.640625s7.898437-17.640625 17.640625-17.640625 17.640625 7.898437 17.640625 17.640625c-.003906 9.742188-7.898437 17.640625-17.640625 17.640625zm0 0"/><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm146.113281 316.605469c-.710937 15.648437-3.199219 26.332031-6.832031 35.683593-7.636719 19.746094-23.246094 35.355469-42.992188 42.992188-9.347656 3.632812-20.035156 6.117188-35.679687 6.832031-15.675781.714844-20.683594.886719-60.605469.886719-39.925781 0-44.929687-.171875-60.609375-.886719-15.644531-.714843-26.332031-3.199219-35.679687-6.832031-9.8125-3.691406-18.695313-9.476562-26.039063-16.957031-7.476562-7.339844-13.261719-16.226563-16.953125-26.035157-3.632812-9.347656-6.121094-20.035156-6.832031-35.679687-.722656-15.679687-.890625-20.6875-.890625-60.609375s.167969-44.929688.886719-60.605469c.710937-15.648437 3.195312-26.332031 6.828125-35.683593 3.691406-9.808594 9.480468-18.695313 16.960937-26.035157 7.339844-7.480469 16.226563-13.265625 26.035157-16.957031 9.351562-3.632812 20.035156-6.117188 35.683593-6.832031 15.675781-.714844 20.683594-.886719 60.605469-.886719s44.929688.171875 60.605469.890625c15.648437.710937 26.332031 3.195313 35.683593 6.824219 9.808594 3.691406 18.695313 9.480468 26.039063 16.960937 7.476563 7.34375 13.265625 16.226563 16.953125 26.035157 3.636719 9.351562 6.121094 20.035156 6.835938 35.683593.714843 15.675781.882812 20.683594.882812 60.605469s-.167969 44.929688-.886719 60.605469zm0 0"/></svg>
+						<ul>Möbi_col</ul>
+					</div>
 				</div>
-				<div class="footer-content">
-					<svg height="512pt" class="img-left" viewBox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg"><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm116.886719 199.601562c.113281 2.519532.167969 5.050782.167969 7.59375 0 77.644532-59.101563 167.179688-167.183594 167.183594h.003906-.003906c-33.183594 0-64.0625-9.726562-90.066406-26.394531 4.597656.542969 9.277343.8125 14.015624.8125 27.53125 0 52.867188-9.390625 72.980469-25.152344-25.722656-.476562-47.410156-17.464843-54.894531-40.8125 3.582031.6875 7.265625 1.0625 11.042969 1.0625 5.363281 0 10.558593-.722656 15.496093-2.070312-26.886718-5.382813-47.140624-29.144531-47.140624-57.597657 0-.265624 0-.503906.007812-.75 7.917969 4.402344 16.972656 7.050782 26.613281 7.347657-15.777343-10.527344-26.148437-28.523438-26.148437-48.910157 0-10.765624 2.910156-20.851562 7.957031-29.535156 28.976563 35.554688 72.28125 58.9375 121.117187 61.394532-1.007812-4.304688-1.527343-8.789063-1.527343-13.398438 0-32.4375 26.316406-58.753906 58.765625-58.753906 16.902344 0 32.167968 7.144531 42.890625 18.566406 13.386719-2.640625 25.957031-7.53125 37.3125-14.261719-4.394531 13.714844-13.707031 25.222657-25.839844 32.5 11.886719-1.421875 23.214844-4.574219 33.742187-9.253906-7.863281 11.785156-17.835937 22.136719-29.308593 30.429687zm0 0"/></svg>
-					<ul>Möbi</ul>
+				<div class="footer-right">
+					<div class="footer-content">
+						<svg xmlns="http://www.w3.org/2000/svg" class="ionicon img-right" viewBox="0 0 512 512"><title>Location</title><path d="M256 48c-79.5 0-144 61.39-144 137 0 87 96 224.87 131.25 272.49a15.77 15.77 0 0025.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="256" cy="192" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" /></svg>		
+						<ul>Transversal 75 # 14-57, Medellin-Colombia</ul>
+					</div>
+					<div class="footer-content">
+						<svg xmlns="http://www.w3.org/2000/svg" class="ionicon img-right" viewBox="0 0 512 512"><title>Logo Whatsapp</title><path d="M414.73 97.1A222.14 222.14 0 00256.94 32C134 32 33.92 131.58 33.87 254a220.61 220.61 0 0029.78 111L32 480l118.25-30.87a223.63 223.63 0 00106.6 27h.09c122.93 0 223-99.59 223.06-222A220.18 220.18 0 00414.73 97.1zM256.94 438.66h-.08a185.75 185.75 0 01-94.36-25.72l-6.77-4-70.17 18.32 18.73-68.09-4.41-7A183.46 183.46 0 0171.53 254c0-101.73 83.21-184.5 185.48-184.5a185 185 0 01185.33 184.64c-.04 101.74-83.21 184.52-185.4 184.52zm101.69-138.19c-5.57-2.78-33-16.2-38.08-18.05s-8.83-2.78-12.54 2.78-14.4 18-17.65 21.75-6.5 4.16-12.07 1.38-23.54-8.63-44.83-27.53c-16.57-14.71-27.75-32.87-31-38.42s-.35-8.56 2.44-11.32c2.51-2.49 5.57-6.48 8.36-9.72s3.72-5.56 5.57-9.26.93-6.94-.46-9.71-12.54-30.08-17.18-41.19c-4.53-10.82-9.12-9.35-12.54-9.52-3.25-.16-7-.2-10.69-.2a20.53 20.53 0 00-14.86 6.94c-5.11 5.56-19.51 19-19.51 46.28s20 53.68 22.76 57.38 39.3 59.73 95.21 83.76a323.11 323.11 0 0031.78 11.68c13.35 4.22 25.5 3.63 35.1 2.2 10.71-1.59 33-13.42 37.63-26.38s4.64-24.06 3.25-26.37-5.11-3.71-10.69-6.48z" fill="none" stroke="currentColor" stroke-width="32"/></svg>
+						<ul>317 569 7850</ul>
+					</div>
+					<div class="footer-content">
+						<svg xmlns="http://www.w3.org/2000/svg" class="ionicon img-right" viewBox="0 0 512 512"><title>Call</title><path d="M451 374c-15.88-16-54.34-39.35-73-48.76-24.3-12.24-26.3-13.24-45.4.95-12.74 9.47-21.21 17.93-36.12 14.75s-47.31-21.11-75.68-49.39-47.34-61.62-50.53-76.48 5.41-23.23 14.79-36c13.22-18 12.22-21 .92-45.3-8.81-18.9-32.84-57-48.9-72.8C119.9 44 119.9 47 108.83 51.6A160.15 160.15 0 0083 65.37C67 76 58.12 84.83 51.91 98.1s-9 44.38 23.07 102.64 54.57 88.05 101.14 134.49S258.5 406.64 310.85 436c64.76 36.27 89.6 29.2 102.91 23s22.18-15 32.83-31a159.09 159.09 0 0013.8-25.8C465 391.17 468 391.17 451 374z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>
+						<ul>256 58 56 / 654 71 32</ul>
+					</div>
+					<div class="footer-content">
+						<img src="./static/icon/icon_picto.svg" class="img-right">
+						<ul>2020 Möbi, Inc.</ul>
+					</div>
 				</div>
-				<div class="footer-content">
-					<svg id="Capa_1" class="img-left" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512" xmlns="http://www.w3.org/2000/svg"><path d="m512 256c0-141.4-114.6-256-256-256s-256 114.6-256 256 114.6 256 256 256c1.5 0 3 0 4.5-.1v-199.2h-55v-64.1h55v-47.2c0-54.7 33.4-84.5 82.2-84.5 23.4 0 43.5 1.7 49.3 2.5v57.2h-33.6c-26.5 0-31.7 12.6-31.7 31.1v40.8h63.5l-8.3 64.1h-55.2v189.5c107-30.7 185.3-129.2 185.3-246.1z"/></svg>
-					<ul>Möbi</ul>
-				</div>
-				<div class="footer-content">
-					<svg height="512pt" class="img-left" viewBox="0 0 512 512" width="512pt" xmlns="http://www.w3.org/2000/svg"><path d="m305 256c0 27.0625-21.9375 49-49 49s-49-21.9375-49-49 21.9375-49 49-49 49 21.9375 49 49zm0 0"/><path d="m370.59375 169.304688c-2.355469-6.382813-6.113281-12.160157-10.996094-16.902344-4.742187-4.882813-10.515625-8.640625-16.902344-10.996094-5.179687-2.011719-12.960937-4.40625-27.292968-5.058594-15.503906-.707031-20.152344-.859375-59.402344-.859375-39.253906 0-43.902344.148438-59.402344.855469-14.332031.65625-22.117187 3.050781-27.292968 5.0625-6.386719 2.355469-12.164063 6.113281-16.902344 10.996094-4.882813 4.742187-8.640625 10.515625-11 16.902344-2.011719 5.179687-4.40625 12.964843-5.058594 27.296874-.707031 15.5-.859375 20.148438-.859375 59.402344 0 39.25.152344 43.898438.859375 59.402344.652344 14.332031 3.046875 22.113281 5.058594 27.292969 2.359375 6.386719 6.113281 12.160156 10.996094 16.902343 4.742187 4.882813 10.515624 8.640626 16.902343 10.996094 5.179688 2.015625 12.964844 4.410156 27.296875 5.0625 15.5.707032 20.144532.855469 59.398438.855469 39.257812 0 43.90625-.148437 59.402344-.855469 14.332031-.652344 22.117187-3.046875 27.296874-5.0625 12.820313-4.945312 22.953126-15.078125 27.898438-27.898437 2.011719-5.179688 4.40625-12.960938 5.0625-27.292969.707031-15.503906.855469-20.152344.855469-59.402344 0-39.253906-.148438-43.902344-.855469-59.402344-.652344-14.332031-3.046875-22.117187-5.0625-27.296874zm-114.59375 162.179687c-41.691406 0-75.488281-33.792969-75.488281-75.484375s33.796875-75.484375 75.488281-75.484375c41.6875 0 75.484375 33.792969 75.484375 75.484375s-33.796875 75.484375-75.484375 75.484375zm78.46875-136.3125c-9.742188 0-17.640625-7.898437-17.640625-17.640625s7.898437-17.640625 17.640625-17.640625 17.640625 7.898437 17.640625 17.640625c-.003906 9.742188-7.898437 17.640625-17.640625 17.640625zm0 0"/><path d="m256 0c-141.363281 0-256 114.636719-256 256s114.636719 256 256 256 256-114.636719 256-256-114.636719-256-256-256zm146.113281 316.605469c-.710937 15.648437-3.199219 26.332031-6.832031 35.683593-7.636719 19.746094-23.246094 35.355469-42.992188 42.992188-9.347656 3.632812-20.035156 6.117188-35.679687 6.832031-15.675781.714844-20.683594.886719-60.605469.886719-39.925781 0-44.929687-.171875-60.609375-.886719-15.644531-.714843-26.332031-3.199219-35.679687-6.832031-9.8125-3.691406-18.695313-9.476562-26.039063-16.957031-7.476562-7.339844-13.261719-16.226563-16.953125-26.035157-3.632812-9.347656-6.121094-20.035156-6.832031-35.679687-.722656-15.679687-.890625-20.6875-.890625-60.609375s.167969-44.929688.886719-60.605469c.710937-15.648437 3.195312-26.332031 6.828125-35.683593 3.691406-9.808594 9.480468-18.695313 16.960937-26.035157 7.339844-7.480469 16.226563-13.265625 26.035157-16.957031 9.351562-3.632812 20.035156-6.117188 35.683593-6.832031 15.675781-.714844 20.683594-.886719 60.605469-.886719s44.929688.171875 60.605469.890625c15.648437.710937 26.332031 3.195313 35.683593 6.824219 9.808594 3.691406 18.695313 9.480468 26.039063 16.960937 7.476563 7.34375 13.265625 16.226563 16.953125 26.035157 3.636719 9.351562 6.121094 20.035156 6.835938 35.683593.714843 15.675781.882812 20.683594.882812 60.605469s-.167969 44.929688-.886719 60.605469zm0 0"/></svg>
-					<ul>Möbi_col</ul>
-				</div>
-			</div>
-			<div class="footer-right">
-				<div class="footer-content">
-					<svg xmlns="http://www.w3.org/2000/svg" class="ionicon img-right" viewBox="0 0 512 512"><title>Location</title><path d="M256 48c-79.5 0-144 61.39-144 137 0 87 96 224.87 131.25 272.49a15.77 15.77 0 0025.5 0C304 409.89 400 272.07 400 185c0-75.61-64.5-137-144-137z" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><circle cx="256" cy="192" r="48" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" /></svg>		
-					<ul>Transversal 75 # 14-57, Medellin-Colombia</ul>
-				</div>
-				<div class="footer-content">
-					<svg xmlns="http://www.w3.org/2000/svg" class="ionicon img-right" viewBox="0 0 512 512"><title>Logo Whatsapp</title><path d="M414.73 97.1A222.14 222.14 0 00256.94 32C134 32 33.92 131.58 33.87 254a220.61 220.61 0 0029.78 111L32 480l118.25-30.87a223.63 223.63 0 00106.6 27h.09c122.93 0 223-99.59 223.06-222A220.18 220.18 0 00414.73 97.1zM256.94 438.66h-.08a185.75 185.75 0 01-94.36-25.72l-6.77-4-70.17 18.32 18.73-68.09-4.41-7A183.46 183.46 0 0171.53 254c0-101.73 83.21-184.5 185.48-184.5a185 185 0 01185.33 184.64c-.04 101.74-83.21 184.52-185.4 184.52zm101.69-138.19c-5.57-2.78-33-16.2-38.08-18.05s-8.83-2.78-12.54 2.78-14.4 18-17.65 21.75-6.5 4.16-12.07 1.38-23.54-8.63-44.83-27.53c-16.57-14.71-27.75-32.87-31-38.42s-.35-8.56 2.44-11.32c2.51-2.49 5.57-6.48 8.36-9.72s3.72-5.56 5.57-9.26.93-6.94-.46-9.71-12.54-30.08-17.18-41.19c-4.53-10.82-9.12-9.35-12.54-9.52-3.25-.16-7-.2-10.69-.2a20.53 20.53 0 00-14.86 6.94c-5.11 5.56-19.51 19-19.51 46.28s20 53.68 22.76 57.38 39.3 59.73 95.21 83.76a323.11 323.11 0 0031.78 11.68c13.35 4.22 25.5 3.63 35.1 2.2 10.71-1.59 33-13.42 37.63-26.38s4.64-24.06 3.25-26.37-5.11-3.71-10.69-6.48z" fill="none" stroke="currentColor" stroke-width="32"/></svg>
-					<ul>317 569 7850</ul>
-				</div>
-				<div class="footer-content">
-					<svg xmlns="http://www.w3.org/2000/svg" class="ionicon img-right" viewBox="0 0 512 512"><title>Call</title><path d="M451 374c-15.88-16-54.34-39.35-73-48.76-24.3-12.24-26.3-13.24-45.4.95-12.74 9.47-21.21 17.93-36.12 14.75s-47.31-21.11-75.68-49.39-47.34-61.62-50.53-76.48 5.41-23.23 14.79-36c13.22-18 12.22-21 .92-45.3-8.81-18.9-32.84-57-48.9-72.8C119.9 44 119.9 47 108.83 51.6A160.15 160.15 0 0083 65.37C67 76 58.12 84.83 51.91 98.1s-9 44.38 23.07 102.64 54.57 88.05 101.14 134.49S258.5 406.64 310.85 436c64.76 36.27 89.6 29.2 102.91 23s22.18-15 32.83-31a159.09 159.09 0 0013.8-25.8C465 391.17 468 391.17 451 374z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/></svg>
-					<ul>256 58 56 / 654 71 32</ul>
-				</div>
-				<div class="footer-content">
-					<img src="./static/icon/icon_picto.svg" class="img-right">
-					<ul>2020 Möbi, Inc.</ul>
-				</div>
-			</div>
-		</section>
-	</footer>
+			</section>
+		</footer>
 	</body>
 </html>

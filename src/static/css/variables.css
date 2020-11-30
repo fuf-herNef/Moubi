@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'main-font';
+ 	src: url('../font/oswald/static/Oswald-Light.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'secundary-font';
+ 	src: url('../font/share_tech/ShareTech-Regular.ttf') format('truetype');
+}
+
+:root {
+	--main-color: #ffffff;
+	--text-color: #1f2421;
+	--secundary-color: #49a078;
+	--dark-color: #dce1de;
+	--complementary-color: #e07a5f;
+
+	--main-font: main-font;
+	--secundary-font: secundary-font;
+	--border-simple: 1px;
+	--border-bold: 3px;
+
+	--font-size: 13px;
+	--ft-title: 40px;
+	--sd-title: 30px;
+	--td-title: 20px;
+}
