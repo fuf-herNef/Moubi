@@ -1,0 +1,78 @@
+nav {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	max-height: 8vh;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.3% 0.2%;
+	overflow: hidden;
+}
+
+.navbar.sticky {
+	position: fixed;
+	top: 0px;
+        width: 100%;
+}
+
+.navbar > .logo {
+	display:flex;
+	justify-content: flex-start;
+}
+.navbar > .logo > img {
+	max-height: 100%;
+}
+
+.navbar > .logo > h1 {
+	font-size: 2em;	
+}
+
+.navbar > .menu {
+	background-color: red;
+}
+
+.navbar .ul-menu {
+	list-style-type: none;
+    	overflow: hidden;
+	height: 100%;
+}
+
+.li-menu {
+	float: right;
+	padding-top: 3px;
+}
+
+.li-menu > a {
+	color: var(--text-color);
+	font-family: var(--secundary-font);
+	font-size: 1.3em;
+	
+	display: block;
+   	text-align: center;
+   	padding: 7% 2%;
+	text-decoration: none;
+	width: 158px;
+}
+
+.li-menu a:hover {
+    border-bottom: 2px solid var(--complementary-color);
+    font-width: bold;
+    font-size: 1.5em;
+}
+
+
+.fondo-img {
+	width: 100%;
+}
+
+.fondo-img img {
+	width: 100%;
+}
+.logo_nav {
+	width: 106px;
+	margin-top: 17px;
+}
+

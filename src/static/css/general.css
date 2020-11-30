@@ -6,17 +6,22 @@
 	font-family: var(--main-font);
 	background-color: var(--main-color);
 	color: var(--text-color);
+	font-size: 12px;
 }
 
-h1, h2 {
-	font-family: var(--main-font-bold);	
-}
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	padding: 2px;
 	color: var(--secundary-color);
 	margin: 2px;
 }
+
+h3, h4 { font-family: var(--main-font); }
+h1, h2 { font-family: var(--main-font-bold); }
+
+h1 { font-size: var(--ft-title); }
+h2 { font-size: var(--sd-title); }
+h3 { font-size: var(--td-title); }
 
 body {
 	width: 100%;
@@ -25,7 +30,9 @@ body {
 	background-color: var(--main-color);
 }
 
-nav, header, section, footer {
-	width: 100%;
+nav, header, section, footer { width: 100%; }
+
+section {
+	margin: 20px 0px;
 }
 

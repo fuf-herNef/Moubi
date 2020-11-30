@@ -54,7 +54,7 @@
 .icon-color--dark>*{stroke:var(--text-color);}
 .icon-color--grey>*{stroke:var(--dark-color);}
 
-.border{border:var(--border-simple) solid var(--secundary-color);}
+.border--a{border:var(--border-simple) solid var(--secundary-color);}
 .border--l{border-left:var(--border-bold) solid var(--secundary-color);}
 .border--r{border-right:var(--border-bold) solid var(--secundary-color);}
 .border--t{border-top:var(--border-bold) solid var(--secundary-color);}
@@ -75,6 +75,9 @@
 .w-100{width:100%;}
 .color-primary{color:var(--main-color);}.color-secundary{color:var(--secundary-color);}.color-dark{color:var(--dark-color);}
 
+.align-center {
+	text-align: center;
+}
 
 .button {
 	background-color:var(--dark-color);
