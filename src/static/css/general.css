@@ -8,6 +8,10 @@
 	color: var(--text-color);
 }
 
+h1, h2 {
+	font-family: var(--main-font-bold);	
+}
+
 h1, h2, h3 {
 	padding: 2px;
 	color: var(--secundary-color);

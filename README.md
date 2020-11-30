@@ -71,9 +71,9 @@ El proyecto, deberá manejarse versionado en un repositorio remoto en github, en
 ### Iconos [Tipo de letra]
 
 <div>
-	<a href="https://github.com/vorillaz/devicons"><img width="20px" src="docs/github.svg" alt="build status"></img> Devicons</a>
-	<a href="https://github.com/shalinguyen/socialicious"><img width="20px" src="docs/github.svg" alt="build status"></img> Socialicius</a>
-	<a href="https://github.com/FortAwesome/Font-Awesome"><img width="20px" src="docs/github.svg" alt="build status"></img> Fontawesome</a>
+	<a href="https://github.com/vorillaz/devicons"><img width="20px" src="docs/github.svg" alt="github repos"></img> Devicons</a>
+	<a href="https://github.com/shalinguyen/socialicious"><img width="20px" src="docs/github.svg" alt="github repos"></img> Socialicius</a>
+	<a href="https://github.com/FortAwesome/Font-Awesome"><img width="20px" src="docs/github.svg" alt="github repos"></img> Fontawesome</a>
 </div>
 
 ### CSS Documentación
