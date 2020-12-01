@@ -1,12 +1,5 @@
-@font-face {
-	font-family: 'main-font';
- 	src: url('../font/oswald/static/Oswald-Light.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'secundary-font';
- 	src: url('../font/share_tech/ShareTech-Regular.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech&display=swap');
 
 :root {
 	--main-color: #ffffff;
@@ -15,8 +8,8 @@
 	--dark-color: #dce1de;
 	--complementary-color: #e07a5f;
 
-	--main-font: main-font;
-	--secundary-font: secundary-font;
+	--main-font: 'Oswald';
+	--secundary-font: 'Share Tech';
 	--border-simple: 1px;
 	--border-bold: 3px;
 

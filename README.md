@@ -9,7 +9,6 @@
 	<a href="#"><img src="http://img.shields.io/badge/master-nightly-875A7B.svg?style=flat&colorA=8F8F8F" alt="builds"></img></a>
 </p>
 
-<h1 align="center"> <img src="/src/static/icon/icon_name.svg"></img> </h1>
 <p align="center">
 Plataforma wed de Möbi, la empresa desarrollada por el grupo <strong>144</strong> de <a href=https://www.utp.edu.co/"">UTP</a> para <a href="https://www.misiontic2022.gov.co/portal">Mintic 2022</a>
 </p>
@@ -24,6 +23,7 @@ Test unitarios de **Jest**; para verificar que las secciones se encuentren cread
 ```bash
 npm run test
 ```
+
 ## Secciones
 Requerimiento minimo del desarrollo de la etiquetas **HTML**.
 ```html
@@ -54,6 +54,11 @@ El proyecto, deberá manejarse versionado en un repositorio remoto en github, en
 
 ## Diseño
 <div align="center">
+
+### Mockup
+
+<a href="https://www.figma.com/file/6G4KvIbDSgi12L58To5qtK/Sprint-I?node-id=0%3A1">Möbi Design Sigma</a>
+
 
 ### Colores
 ![#fefefe](https://via.placeholder.com/15/fefefe/000000?text=+) `#ffffff`

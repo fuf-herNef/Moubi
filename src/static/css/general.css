@@ -3,10 +3,10 @@
 	margin: 0px;
 	padding: 0px;
 
-	font-family: var(--main-font);
+	font-family: var(--main-font), sans-serif;
 	background-color: var(--main-color);
 	color: var(--text-color);
-	font-size: 12px;
+	font-size: 14px;
 }
 
 
@@ -29,10 +29,6 @@ body {
 	justify-content: center;
 	background-color: var(--main-color);
 }
-
 nav, header, section, footer { width: 100%; }
-
-section {
-	margin: 20px 0px;
-}
-
+section {margin: 20px 0px;}
+a {text-decoration: none;}
